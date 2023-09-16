@@ -3,16 +3,27 @@
 
 # How to use:
 - ## clone the repo
-    - $ git clone git@github.com:iceonGit/TDoC-PairwithPeer.git
+  ```bash
+      git clone git@github.com:iceonGit/TDoC-PairwithPeer.git
+  ```
 - ## change the directory to "PairWithPeer"
-    - $ cd PairWithPeer
+  ```bash
+      cd PairWithPeer
+  ```
 - ## install make
-    - $ sudo apt install make
+  ```bash
+       sudo apt install make
+  ```
 
 - ## To build and run server
-    - $ make server
-    - $ ./serverex
+  ```bash
+        make server
+        ./serverex
+  ```
+- ## To build and run client
+  ```bash
+      make client
+      ./clientex
+  ```
 
-- ## To build and run client 
-    - $ make client
-    - $ ./clientex
+  Note: Please make sure to have `git` and `make` installed on your system before proceeding with the above steps.
